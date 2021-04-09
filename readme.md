@@ -5,9 +5,38 @@
   </a>
 </div>
 
-# Webpack Loader Typescript Template
-Simple boilerplate for creating webpack loader using typescript
+# Webpack Inject Global Sass
+Webpack loader to inject specified sass file(s) globally to all loaded sass files
 
+#### Note: this loader is still under development & not ready to be used in production 
+
+## Getting Started
+
+To begin, you'll need to install `inject-global-sass`:
+
+```console
+npm install --save-dev inject-global-sass
+```
+
+Then add the loader to your `webpack` config for a specific file type. For example:
+
+**webpack.config.js**
+
+```js
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.scss/i,
+        loader: 'inject-global-sass',
+        options: {
+          files: "src/sass/global.scss"
+        }
+      },
+    ],
+  },
+};
+```
 
 ## Contributing
 
