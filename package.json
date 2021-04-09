@@ -1,7 +1,7 @@
 {
-  "name": "webpack-loader-typescript-template",
-  "version": "1.0",
-  "description": "Template for creating webpack loaders that uses typescript",
+  "name": "inject-global-sass",
+  "version": "1.0.0-beta.1",
+  "description": "Webpack loader to inject specified sass file(s) globally to all loaded sass files",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "npm run build && jest",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ibrahimrahhal/webpack-loader-typescript-template.git"
+    "url": "git+https://github.com/Ibrahimrahhal/inject-global-sass.git"
   },
   "keywords": [
     "webpack",
@@ -19,9 +19,9 @@
   "author": "Ibrahim Rahhal <ibrahim.rahhal3636@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ibrahimrahhal/webpack-loader-typescript-template/issues"
+    "url": "https://github.com/Ibrahimrahhal/inject-global-sass/issues"
   },
-  "homepage": "https://github.com/Ibrahimrahhal/webpack-loader-typescript-template#readme",
+  "homepage": "https://github.com/Ibrahimrahhal/inject-global-sass/issues#readme",
   "peerDependencies": {
     "webpack": "^5.0.0"
   },
