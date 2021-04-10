@@ -1,12 +1,13 @@
 {
   "name": "inject-global-sass",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-alpha.1",
   "description": "Webpack loader to inject specified sass file(s) globally to all loaded sass files",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "npm run build && jest",
     "build": "tsc",
-    "lint": "eslint ./src --ext .ts"
+    "lint": "eslint ./src --ext .ts",
+    "dev": "tsc-watch"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "jest": "^26.6.3",
     "ts-jest": "^26.5.2",
     "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
     "typescript": "^4.2.3",
     "webpack": "^5.25.0",
     "webpack-cli": "^4.5.0"
