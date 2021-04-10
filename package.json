@@ -1,6 +1,6 @@
 {
   "name": "inject-global-sass",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-alpha.1",
   "description": "Webpack loader to inject specified sass file(s) globally to all loaded sass files",
   "main": "dist/src/index.js",
   "scripts": {
